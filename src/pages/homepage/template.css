@@ -50,6 +50,9 @@ a {
   .item a {
     text-decoration:none;
   }
+  .item .ct {
+    padding-left:20px;
+  }
 
 
 

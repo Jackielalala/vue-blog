@@ -5,7 +5,7 @@
       <h3>{{user.username}}</h3>
     </section>
     <section>
-      <router-link class="item" v-for='blog in blogs' :key='blog.id' :to='`/details/${blog.id}`'>
+      <router-link class="item" v-for='blog in blogs' :key='blog.id' :to='`/detail/${blog.id}`'>
         <div class="date">
           <div class="day">{{splitDate(blog.createdAt).date}}</div>
           <div class="month">{{splitDate(blog.createdAt).month}}</div>
