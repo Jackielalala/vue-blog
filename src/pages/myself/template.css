@@ -1,0 +1,45 @@
+.user-info {
+    margin:20px;
+}
+
+.item {
+    margin-bottom:20px;
+    display:grid;
+    grid-template-columns:auto 1fr;
+    grid-template-areas: 'date content';
+}
+.item .date {
+    grid-area:date;
+}
+.item .content {
+    grid-area:content;
+    padding-left:30px;
+    justify-self:start;
+    color:#333;
+}
+.actions a {
+    color: rgb(0, 153, 0);
+}
+.actions p {
+    color: rgb(0, 153, 0);
+}
+.day {
+    font-size:24px;
+    color:#ccc;
+}
+.month {
+    font-size:16px;
+    color:#aaa;
+}
+.year {
+    font-size:16px;
+    color:#aaa;
+}
+a {
+    text-decoration:none;
+    color:#333;
+}
+h3 {
+    margin:0;
+}
+

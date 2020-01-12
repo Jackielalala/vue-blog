@@ -1,0 +1,19 @@
+#edit {
+    padding-bottom: 30px;
+  }
+  #edit h1 {
+    text-align: center;
+  }
+  #edit input {
+    width: 60%;
+  }
+  #edit textarea {
+    width: 60%;
+  }
+  .submit {
+    display:block;
+    text-align:center;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  
